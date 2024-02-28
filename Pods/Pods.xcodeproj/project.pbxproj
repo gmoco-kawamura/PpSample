@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F7BE00C4F877CD6387DDB8B389954F6 /* PTPopupWebViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A7B5FE73958831AA93E1C1E8147AB /* PTPopupWebViewButton.swift */; };
+		54F6E8710148F78C6F0CBF570D16EFA3 /* PTPopupWebViewControllerBlur.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3388E23B75DD00314B1E238E1127C3E /* PTPopupWebViewControllerBlur.xib */; };
+		592588B98C9490E4F68A0B98BC8D4454 /* PTPopupWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE34798DC25EBCA6469373DE0CB7F8 /* PTPopupWebViewController.swift */; };
+		6F56890B2E5531634E1B50D429B3F8D9 /* PTPopupWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E965B99EB63984EF6BEAC82008061623 /* PTPopupWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB803B20E12978D59A69550CB0A11F4 /* PTPopupWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEDFBAE910BC807898E9265721494C8 /* PTPopupWebView.xib */; };
+		B0BA06482B8F02B4002E40E7 /* PTPopupWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531A8A90122ABF219FF49F0ADC365A7B /* PTPopupWebView.framework */; };
+		B0BA06492B8F02B4002E40E7 /* PTPopupWebView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 531A8A90122ABF219FF49F0ADC365A7B /* PTPopupWebView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0BA064D2B8F02D4002E40E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B0D2E6EE2B8F2F1400D52793 /* PTPopupWebViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923A7B5FE73958831AA93E1C1E8147AB /* PTPopupWebViewButton.swift */; };
+		C3323A65ED7E7D4829D0866A86FDC76E /* Pods-PpSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D137E0D021D10B65A15CF79F6207751 /* Pods-PpSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C927A83A5DE5293613B12AE94244EF71 /* Pods-PpSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD3E165F63135FC66793BB8AB4E71BB /* Pods-PpSample-dummy.m */; };
+		CC7D2FF1726434474822C8C19D52D759 /* PTPopupWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFFBB8B4CCCE4305AD85D0788A53462 /* PTPopupWebView.swift */; };
+		CD878C2784B0F565E959D62D04F1932D /* PTPopupWebViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C7C804EA14A8032CD59279306C8DE /* PTPopupWebViewStyle.swift */; };
+		D90BE243D50070C8C348161932FEE36F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F4F0521B8F8007BED332DEF7EAD6340C /* PTPopupWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CB9B1610489641DB30FB867D6B77D7 /* PTPopupWebView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F5B35A54FC2512C93C126EFCA63A0FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA84200AA7D227A98E07B3225695828F;
+			remoteInfo = PTPopupWebView;
+		};
+		B0BA064A2B8F02B4002E40E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA84200AA7D227A98E07B3225695828F;
+			remoteInfo = PTPopupWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0BA064C2B8F02B4002E40E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B0BA06492B8F02B4002E40E7 /* PTPopupWebView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E254BD25E6B8E6D3191B47A039C69F9 /* Pods-PpSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PpSample.release.xcconfig"; sourceTree = "<group>"; };
+		227C21544B6F8AE08B7A34AC33CD5B2E /* Pods_PpSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PpSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D137E0D021D10B65A15CF79F6207751 /* Pods-PpSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PpSample-umbrella.h"; sourceTree = "<group>"; };
+		3044D578E3A7F731AFF3CFBBC95E5874 /* PTPopupWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PTPopupWebView.modulemap; sourceTree = "<group>"; };
+		34CB9B1610489641DB30FB867D6B77D7 /* PTPopupWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PTPopupWebView-dummy.m"; sourceTree = "<group>"; };
+		531A8A90122ABF219FF49F0ADC365A7B /* PTPopupWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PTPopupWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		681DE66266DB1FB45ABB4B313104550D /* PTPopupWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PTPopupWebView-prefix.pch"; sourceTree = "<group>"; };
+		6B86AC1FC61F1DFAC3ABC56E3E9F4760 /* Pods-PpSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PpSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CFFBB8B4CCCE4305AD85D0788A53462 /* PTPopupWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PTPopupWebView.swift; path = Pod/Classes/PTPopupWebView.swift; sourceTree = "<group>"; };
+		8B5F3476803244153B1175DCCE8DE3A7 /* Pods-PpSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PpSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BD803ADAE5DF9627A045AB07B92756E /* PTPopupWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PTPopupWebView.debug.xcconfig; sourceTree = "<group>"; };
+		8CC6D1BB450E6E36075D613688DFF60D /* PTPopupWebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PTPopupWebView-Info.plist"; sourceTree = "<group>"; };
+		923A7B5FE73958831AA93E1C1E8147AB /* PTPopupWebViewButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PTPopupWebViewButton.swift; path = Pod/Classes/PTPopupWebViewButton.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADDE34798DC25EBCA6469373DE0CB7F8 /* PTPopupWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PTPopupWebViewController.swift; path = Pod/Classes/PTPopupWebViewController.swift; sourceTree = "<group>"; };
+		B70C2AD55AEF05704576C8B24316C00C /* Pods-PpSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PpSample-Info.plist"; sourceTree = "<group>"; };
+		BD6C569C2F2208B0E64417A01B7B6CB7 /* Pods-PpSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PpSample-frameworks.sh"; sourceTree = "<group>"; };
+		BEEDFBAE910BC807898E9265721494C8 /* PTPopupWebView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PTPopupWebView.xib; path = Pod/Assets/PTPopupWebView.xib; sourceTree = "<group>"; };
+		CB4C7C804EA14A8032CD59279306C8DE /* PTPopupWebViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PTPopupWebViewStyle.swift; path = Pod/Classes/PTPopupWebViewStyle.swift; sourceTree = "<group>"; };
+		CBD3E165F63135FC66793BB8AB4E71BB /* Pods-PpSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PpSample-dummy.m"; sourceTree = "<group>"; };
+		D3388E23B75DD00314B1E238E1127C3E /* PTPopupWebViewControllerBlur.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PTPopupWebViewControllerBlur.xib; path = Pod/Assets/PTPopupWebViewControllerBlur.xib; sourceTree = "<group>"; };
+		D3EEE2473334F7BEBE876B00B0EBAE10 /* Pods-PpSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PpSample.modulemap"; sourceTree = "<group>"; };
+		E965B99EB63984EF6BEAC82008061623 /* PTPopupWebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PTPopupWebView-umbrella.h"; sourceTree = "<group>"; };
+		ECFA4422C873BE6FA4E51B052B38A293 /* PTPopupWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PTPopupWebView.release.xcconfig; sourceTree = "<group>"; };
+		FAA3EE7CD2410C80E18D03E51D26E773 /* Pods-PpSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PpSample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87FAF91882B88FDB867808F88239EA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BA06482B8F02B4002E40E7 /* PTPopupWebView.framework in Frameworks */,
+				B0BA064D2B8F02D4002E40E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2FF4B92B1C25B2D79098709E88F746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90BE243D50070C8C348161932FEE36F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBDA6976BEFF87411351B848A0CB822 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEEDFBAE910BC807898E9265721494C8 /* PTPopupWebView.xib */,
+				D3388E23B75DD00314B1E238E1127C3E /* PTPopupWebViewControllerBlur.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3BF45FA489653F2E4A568B9BBA67EA4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227C21544B6F8AE08B7A34AC33CD5B2E /* Pods_PpSample.framework */,
+				531A8A90122ABF219FF49F0ADC365A7B /* PTPopupWebView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		793AF37DA2FBEF1E3ABCA93318EAF47E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3044D578E3A7F731AFF3CFBBC95E5874 /* PTPopupWebView.modulemap */,
+				34CB9B1610489641DB30FB867D6B77D7 /* PTPopupWebView-dummy.m */,
+				8CC6D1BB450E6E36075D613688DFF60D /* PTPopupWebView-Info.plist */,
+				681DE66266DB1FB45ABB4B313104550D /* PTPopupWebView-prefix.pch */,
+				E965B99EB63984EF6BEAC82008061623 /* PTPopupWebView-umbrella.h */,
+				8BD803ADAE5DF9627A045AB07B92756E /* PTPopupWebView.debug.xcconfig */,
+				ECFA4422C873BE6FA4E51B052B38A293 /* PTPopupWebView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PTPopupWebView";
+			sourceTree = "<group>";
+		};
+		8C53276A26D0053271F4277337D3E3BA /* Pods-PpSample */ = {
+			isa = PBXGroup;
+			children = (
+				D3EEE2473334F7BEBE876B00B0EBAE10 /* Pods-PpSample.modulemap */,
+				8B5F3476803244153B1175DCCE8DE3A7 /* Pods-PpSample-acknowledgements.markdown */,
+				6B86AC1FC61F1DFAC3ABC56E3E9F4760 /* Pods-PpSample-acknowledgements.plist */,
+				CBD3E165F63135FC66793BB8AB4E71BB /* Pods-PpSample-dummy.m */,
+				BD6C569C2F2208B0E64417A01B7B6CB7 /* Pods-PpSample-frameworks.sh */,
+				B70C2AD55AEF05704576C8B24316C00C /* Pods-PpSample-Info.plist */,
+				2D137E0D021D10B65A15CF79F6207751 /* Pods-PpSample-umbrella.h */,
+				FAA3EE7CD2410C80E18D03E51D26E773 /* Pods-PpSample.debug.xcconfig */,
+				1E254BD25E6B8E6D3191B47A039C69F9 /* Pods-PpSample.release.xcconfig */,
+			);
+			name = "Pods-PpSample";
+			path = "Target Support Files/Pods-PpSample";
+			sourceTree = "<group>";
+		};
+		AD44F3E1C2C62DFD93C7A5742A192373 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C53276A26D0053271F4277337D3E3BA /* Pods-PpSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ED91D0995CC4B5877EF6534740F1331E /* Pods */,
+				3BF45FA489653F2E4A568B9BBA67EA4C /* Products */,
+				AD44F3E1C2C62DFD93C7A5742A192373 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED91D0995CC4B5877EF6534740F1331E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD6FE25C6A7AA3482A1262DD66359B69 /* PTPopupWebView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD6FE25C6A7AA3482A1262DD66359B69 /* PTPopupWebView */ = {
+			isa = PBXGroup;
+			children = (
+				7CFFBB8B4CCCE4305AD85D0788A53462 /* PTPopupWebView.swift */,
+				923A7B5FE73958831AA93E1C1E8147AB /* PTPopupWebViewButton.swift */,
+				ADDE34798DC25EBCA6469373DE0CB7F8 /* PTPopupWebViewController.swift */,
+				CB4C7C804EA14A8032CD59279306C8DE /* PTPopupWebViewStyle.swift */,
+				2CBDA6976BEFF87411351B848A0CB822 /* Resources */,
+				793AF37DA2FBEF1E3ABCA93318EAF47E /* Support Files */,
+			);
+			path = PTPopupWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04A8CCA5D33B8562C1AB0E58B8EAC24A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3323A65ED7E7D4829D0866A86FDC76E /* Pods-PpSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC0961E954355A721864975E9B4DFD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F56890B2E5531634E1B50D429B3F8D9 /* PTPopupWebView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA84200AA7D227A98E07B3225695828F /* PTPopupWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6505C207BFD4F3710FD68598DE859AAC /* Build configuration list for PBXNativeTarget "PTPopupWebView" */;
+			buildPhases = (
+				7BC0961E954355A721864975E9B4DFD5 /* Headers */,
+				DD0960E070250B9FAC2CE33032766947 /* Sources */,
+				9E2FF4B92B1C25B2D79098709E88F746 /* Frameworks */,
+				5CDF34844CCC66ACC67D28E24E68FE94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PTPopupWebView;
+			productName = PTPopupWebView;
+			productReference = 531A8A90122ABF219FF49F0ADC365A7B /* PTPopupWebView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF0BC4BEEB5167D96F5419B32F6BC3E2 /* Pods-PpSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4102652C47E7436BD56AC3541925DAED /* Build configuration list for PBXNativeTarget "Pods-PpSample" */;
+			buildPhases = (
+				04A8CCA5D33B8562C1AB0E58B8EAC24A /* Headers */,
+				BB407232ED388B273A45F980E1BFBA39 /* Sources */,
+				87FAF91882B88FDB867808F88239EA53 /* Frameworks */,
+				DD9448587CD12BBFB922F427DBB32640 /* Resources */,
+				B0BA064C2B8F02B4002E40E7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD3065CF4EEA5C2ABACD8F0489D12CE /* PBXTargetDependency */,
+				B0BA064B2B8F02B4002E40E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-PpSample";
+			productName = Pods_PpSample;
+			productReference = 227C21544B6F8AE08B7A34AC33CD5B2E /* Pods_PpSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3BF45FA489653F2E4A568B9BBA67EA4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0BC4BEEB5167D96F5419B32F6BC3E2 /* Pods-PpSample */,
+				FA84200AA7D227A98E07B3225695828F /* PTPopupWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CDF34844CCC66ACC67D28E24E68FE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB803B20E12978D59A69550CB0A11F4 /* PTPopupWebView.xib in Resources */,
+				54F6E8710148F78C6F0CBF570D16EFA3 /* PTPopupWebViewControllerBlur.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9448587CD12BBFB922F427DBB32640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB407232ED388B273A45F980E1BFBA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D2E6EE2B8F2F1400D52793 /* PTPopupWebViewButton.swift in Sources */,
+				C927A83A5DE5293613B12AE94244EF71 /* Pods-PpSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0960E070250B9FAC2CE33032766947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7D2FF1726434474822C8C19D52D759 /* PTPopupWebView.swift in Sources */,
+				F4F0521B8F8007BED332DEF7EAD6340C /* PTPopupWebView-dummy.m in Sources */,
+				1F7BE00C4F877CD6387DDB8B389954F6 /* PTPopupWebViewButton.swift in Sources */,
+				592588B98C9490E4F68A0B98BC8D4454 /* PTPopupWebViewController.swift in Sources */,
+				CD878C2784B0F565E959D62D04F1932D /* PTPopupWebViewStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DD3065CF4EEA5C2ABACD8F0489D12CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PTPopupWebView;
+			target = FA84200AA7D227A98E07B3225695828F /* PTPopupWebView */;
+			targetProxy = 3F5B35A54FC2512C93C126EFCA63A0FF /* PBXContainerItemProxy */;
+		};
+		B0BA064B2B8F02B4002E40E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA84200AA7D227A98E07B3225695828F /* PTPopupWebView */;
+			targetProxy = B0BA064A2B8F02B4002E40E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1A6E1BCEF1985C1827DCE20C8C7DA622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD803ADAE5DF9627A045AB07B92756E /* PTPopupWebView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PTPopupWebView/PTPopupWebView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PTPopupWebView/PTPopupWebView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PTPopupWebView/PTPopupWebView.modulemap";
+				PRODUCT_MODULE_NAME = PTPopupWebView;
+				PRODUCT_NAME = PTPopupWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C7A10820C303E8FC99A70CD5563B4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E254BD25E6B8E6D3191B47A039C69F9 /* Pods-PpSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PpSample/Pods-PpSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PpSample/Pods-PpSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B818FA449DF8A21A9566BA9C38A15B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA3EE7CD2410C80E18D03E51D26E773 /* Pods-PpSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PpSample/Pods-PpSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PpSample/Pods-PpSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF2BF26AA4E9BD0EAA8557673DAF81A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFA4422C873BE6FA4E51B052B38A293 /* PTPopupWebView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PTPopupWebView/PTPopupWebView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PTPopupWebView/PTPopupWebView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PTPopupWebView/PTPopupWebView.modulemap";
+				PRODUCT_MODULE_NAME = PTPopupWebView;
+				PRODUCT_NAME = PTPopupWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4102652C47E7436BD56AC3541925DAED /* Build configuration list for PBXNativeTarget "Pods-PpSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B818FA449DF8A21A9566BA9C38A15B3B /* Debug */,
+				8C7A10820C303E8FC99A70CD5563B4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6505C207BFD4F3710FD68598DE859AAC /* Build configuration list for PBXNativeTarget "PTPopupWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6E1BCEF1985C1827DCE20C8C7DA622 /* Debug */,
+				DF2BF26AA4E9BD0EAA8557673DAF81A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
